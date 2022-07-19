@@ -46,6 +46,11 @@
   margin-left: 20px;
 }
 
+.list-item {
+  background-color: yellow;
+  color: black;
+}
+
 .list-item:hover {
   background-color: lightgray;
   color: black;
