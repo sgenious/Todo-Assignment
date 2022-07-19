@@ -13,7 +13,7 @@ const Todolist = ({handleUpdate}) => {
         <p className='dashed-line d-flex flex-row'>Task List</p>
       <ul>
       {taskList.map(todo=> (
-        <li key={todo.id} className="d-flex background-color:yellow justify-content-between my-2 list-item p-2 border rounded border-2">
+        <li key={todo.id} className="d-flex justify-content-between my-2 list-item p-2 border rounded border-2">
           <p className='mb-0'>Title: {todo.task.taskName}</p>
 	  <p className='mb-0'>Deadline: {todo.task.time}</p>
           <div>
